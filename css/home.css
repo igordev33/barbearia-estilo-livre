@@ -1,0 +1,59 @@
+.main {
+    height: 88vh;
+    background-color: black;
+    background-image: url(../imagens/home-img-sm.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.main__title {
+    font-size: 2.5rem;
+    text-shadow: 0px 0px 5px black;
+    margin: 20px 20px 0px 20px;
+}
+
+.main__text {
+    font-weight: 500;
+    text-shadow: 0px 0px 5px black;
+    margin: 0px 20px;
+}
+
+.main__button {
+    margin: 30px;
+}
+
+@media (min-width: 768px) {
+    .main {
+        background-image: url(../imagens/home-img-md.jpg);
+    }
+
+    .main__text {
+        margin: 0px 100px;
+    }
+    .main__button {
+        padding: 20px;
+        font-size: 1.5rem;
+        width: 70%;
+        margin: 50px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .main {
+        background-image: url(../imagens/home-img-lg.jpg);
+    }
+
+    .main__title {
+        font-size: 2rem;
+    }
+
+    .main__text {
+        font-size: 1.3rem !important;
+        margin: 0px 150px;
+    }
+
+    .main__button {
+        font-size: 1rem;
+        width: 200px;
+    }
+}
